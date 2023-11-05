@@ -1,5 +1,5 @@
 # ymdown
-A wrapper on top of ytmusicapi and yt-dlp for search-and-download in YouTube Music.
+A utility build on top of ytmusicapi and yt-dlp for easy search-and-download in YouTube Music.
 
 ## Installation
 `pip install ymdown`
