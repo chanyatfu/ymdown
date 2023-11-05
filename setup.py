@@ -5,12 +5,12 @@ with open('requirements.txt') as f:
 
 setup(
     name='ymdown',
-    version='0.1.1',
+    version='0.1.2',
     packages=find_packages(),
     install_requires=required,
     entry_points={
         'console_scripts': [
-            'ymdown = ymdown:main',
+            'ymdown = ymdown.ymdown:main',
         ],
     },
     # Additional metadata about your package.
